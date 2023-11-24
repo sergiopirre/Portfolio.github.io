@@ -24,7 +24,7 @@ body {
     display: inline-block;
 }
 .menu a:hover, a.active {
-    background: rgb(2, 188, 160);
+    background: #02bca0;
     transition: .5s;
 }
 .menu {
