@@ -85,3 +85,33 @@ footer {
     font-size: 1.4em;
     margin-bottom: 1em;
 }
+.containericonos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.iconredes {
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+    border: 1px solid white;
+    background-image: url(../img/facebook.svg);
+    background-position: center; 
+    background-size: 45%;
+    background-repeat: no-repeat;
+    margin: 1em;
+    background-color: rgb(255, 255, 255);
+}
+.iconredes:hover {
+    filter: invert(1);
+}
+.iconredes:nth-of-type(2) { /*Cambiar de ul*/
+    background-image: url(../img/instagram.svg);
+}
+.iconredes:nth-of-type(3) {
+    background-image: url(../img/twitter.svg);
+}
+.iconredes:nth-of-type(4) {
+    background-image: url(../img/linkedin.svg); 
+}
