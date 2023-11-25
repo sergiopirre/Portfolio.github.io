@@ -96,22 +96,22 @@ footer {
     width: 5em;
     border-radius: 5em;
     border: 1px solid white;
-    background-image: url(../img/facebook.svg);
+    background-image: url(../img/facebook.jpg);
     background-position: center; 
     background-size: 45%;
     background-repeat: no-repeat;
     margin: 1em;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 .iconredes:hover {
     filter: invert(1);
 }
 .iconredes:nth-of-type(2) { /*Cambiar de ul*/
-    background-image: url(../img/instagram.svg);
+    background-image: url(../img/instagram.jpg);
 }
 .iconredes:nth-of-type(3) {
-    background-image: url(../img/twitter.svg);
+    background-image: url(../img/twitter.jpg);
 }
 .iconredes:nth-of-type(4) {
-    background-image: url(../img/linkedin.svg); 
+    background-image: url(../img/linkedin.jpg); 
 }

@@ -1,13 +1,11 @@
 /*Css de Curriculum*/
 .imgAvatar {
-    float: left;
     margin-top: 5em;
-    margin-left: 15em;
+    margin-right: 15em;
+    height: 30vh;
 }
 .titulo {
     line-height: 6.5em;
-    margin-left: 3.5em;
-    display: inline-block;
     font-size: 5em;
     color: white;
 }
@@ -30,4 +28,9 @@ summary {
 }
 .titulosAcademy {
     margin-top: 2em;
+}
+.containerMain {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
 }
