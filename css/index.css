@@ -1,4 +1,12 @@
 /*Css de Index*/
+body {
+    background-image: linear-gradient(to top, rgb(30,35,38,.8), rgb(30,35,38,.1)),url(../img/imgBodyIndex.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.iframes {
+    background-color: black;
+}
 .divIndex {
     margin: 0 auto;
     margin-top: 1em;
